@@ -18,10 +18,10 @@ def sentence_splitter(input_string):
     for word in split_string:
         if len(word) > len(current_longest):
             current_longest = word
-    print(f"The longest word is {current_longest}")
+    return current_longest
         
 
 
 
 
-sentence_splitter(input_string)
+print(f"The longest word is {sentence_splitter(input_string)}")
