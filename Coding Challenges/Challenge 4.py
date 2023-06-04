@@ -1,3 +1,4 @@
+
 def main():
     print_banner()
     input_string = input("What sentence would you like to check? ")
